@@ -1,9 +1,9 @@
 /**
- * given an array **A** returns a minimal positive **integer** not present in the array.
+ * given an array **mas** returns a minimal positive **integer** not present in the array.
  * @private
  * @method solution1
- * @param {String} str
- * @return {Boolean} returns a minimal positive **integer** not present in the array.
+ * @param {Array} mas
+ * @return {Number} returns a minimal positive **integer** not present in the array.
  */
 function solution1(mas) {
     var result = 0;
