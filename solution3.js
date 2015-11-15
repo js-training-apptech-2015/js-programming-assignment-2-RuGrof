@@ -26,10 +26,10 @@ function solution3(A, F) {
 
     for (i = 0; i < A.length; i++) {
 
-        result[i]=mapFunction(A[i],i,A);
+        result[i] = mapFunction(A[i], i, A);
 
     }
-    console.log(result);
+
     return result;
 
 }
